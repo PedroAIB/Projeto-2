@@ -1,0 +1,62 @@
+body {
+    background-color: #e0f2fe;
+    font-family: Arial, sans-serif;
+    color: #333333;
+    padding: 20px;
+}
+
+h1 {
+    color: #1e3a8a;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+h2 {
+    color: #0284c7;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.destaque {
+    background-color: #ffffff;
+    color: #0f172a;
+    padding: 15px;
+    margin: 20px 0;
+    border-left: 5px solid #0284c7;
+}
+
+div {
+    background-color: #ffffff;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+img {
+    max-width: 400px;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+
+/******************************************************************
+ * MECANISMO DE AVALIAÇÃO METACOGNITIVA
+ ******************************************************************
+ 1. Desafio Técnico: 
+ A regra mais difícil de aplicar foi a classe personalizada (.destaque), 
+ pois no início esqueci-me de colocar o ponto (.) antes do nome no ficheiro 
+ CSS, o que fazia com que o browser não reconhecesse a estilização do 
+ parágrafo. Superei isso inspecionando o elemento no Chrome (tecla F12) 
+ para perceber por que razão a classe não estava a ser aplicada.
+
+ 2. Correção de Sintaxe: 
+ O meu erro mais comum durante os testes foi esquecer-me de fechar as 
+ chavetas ({ }) no ficheiro CSS e não colocar o ponto e vírgula (;) no 
+ final de cada propriedade. Isso fazia com que as regras seguintes fossem 
+ ignoradas até eu voltar ao Notepad++ para corrigir.
+
+ 3. Autoria: 
+ O atributo "src" serve para indicar o caminho exato ou localização do 
+ ficheiro de imagem que queremos carregar na página web. Ele diz ao 
+ navegador onde deve ir buscar a imagem para a mostrar corretamente ao 
+ utilizador no ecrã.
+ ********************************************************************/
